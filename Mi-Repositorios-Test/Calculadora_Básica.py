@@ -1,3 +1,6 @@
+
+
+
 OPERACIONES = {
     "1": ("Suma", lambda a, b: a + b),
     "2": ("Resta", lambda a, b: a - b),
@@ -17,7 +20,7 @@ def pedir_numero(mensaje):
 
 
 def calcular():
-    print("=== Calculadora básica ===")
+    print("== Calculadora básica ==")
 
     while True:
         print("\nSelecciona una operación:")
@@ -49,3 +52,5 @@ def calcular():
 
 if __name__ == "__main__":
     calcular()
+
+
